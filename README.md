@@ -16,6 +16,8 @@ This is Currency Calculator prepared for recruitment
     - in input, there both `,` and `.` are treated as decimal separator; to make decimal input effortless
     - in text, local browser settings are used, taken via Intl.NumberFormat(navigator.language, ...) to create correctly formatted number
   - There is no "swap" button - to swap two currencies - i've already exceeded given task time
+  - There is no search input integrated with select element to make finding specific currency easier
+  - There is no cache modifications, it's all default settings from SWR; in general list of currencies could have set longterm TTL (at least few days) as it changes rarely; currency conversion could be cached as well - TTL less than a day;
 
 ## Technology
 
